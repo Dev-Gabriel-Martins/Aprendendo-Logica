@@ -7,6 +7,6 @@ var
 
 inicio
 
-escreva("Olá mundo!!")
+escreval("Olá mundo!!")
 
 fimalgoritmo
