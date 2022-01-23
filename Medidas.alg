@@ -16,7 +16,7 @@ leia(c)
 
 quadrado<- Exp(a,2)
 triangulo<- (a*b)/2
-trapezio<- ((a+b)/ 2)* c
+trapezio<- ((a+b)* c) /2
 
 escreval("Area do area é ",quadrado:4:4)
 escreval("Area do tringulo é ",triangulo:4:4)
