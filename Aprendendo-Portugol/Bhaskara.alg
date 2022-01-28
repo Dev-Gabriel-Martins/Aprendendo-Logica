@@ -18,14 +18,19 @@ inicio
  escreval("Coeficiente c ")
  leia(c)
  
- delta <- (exp(b,2) -4) * (a*c)
- 
- x1 <-(-b + RaizQ(delta))/(2*a)
+ delta <- Exp(b,2) -4 * a * c
+se (a = 0) ou (delta < 0) entao
+ escreval("Não e possivel calcular valor de X dentro dos reais ")
+  senao
+  
+ x1 <- (-b + RaizQ(delta)) / (2*a)
 
- x2 <-( b - RaizQ(delta))/(2*a)
+ x2 <- ( -b - RaizQ(delta)) / (2*a)
 
- escreval("X1= ",x1:5)
+ escreval("X1= ",x1:1:4)
  
- escreval("X2= ",x2:5)
+ escreval("X2= ",x2:1:4)
+ fimse
+ 
  
 fimalgoritmo
