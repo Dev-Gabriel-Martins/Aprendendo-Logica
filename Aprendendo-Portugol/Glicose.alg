@@ -29,3 +29,4 @@ leia(glicose)
       fimse
  fimse
 fimalgoritmo
+
