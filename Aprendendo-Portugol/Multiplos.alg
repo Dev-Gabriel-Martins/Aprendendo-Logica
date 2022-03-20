@@ -5,16 +5,23 @@ algoritmo "multiplos"
 // Data : 15/2/2022
 // Seção de Declarações 
 var
-    a,b:inteiro
+a,b:inteiro
+
 inicio
 // Seção de Comandos
 escreval("Digite o primeiro valor")
 leia(a)
+
 escreval("Digite o segundo valor")
 leia(b)
-se a%b=0 entao
+
+se (a%b=0) ou (b%a=0) entao
+
 escreval("São multiplos")
+
 senao
+
 escreval("Não são multiplos")
+
 fimse
 fimalgoritmo
