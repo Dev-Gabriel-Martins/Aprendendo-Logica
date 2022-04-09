@@ -5,7 +5,7 @@ var
 salarioAtual, porcentagem, aumento, salarioNovo : real
 
 inicio
-Escreval("escreva seu alario atual: ")
+Escreval("escreva seu salario atual: ")
 leia(salarioAtual)
 
 se salarioAtual <= 1000 entao
