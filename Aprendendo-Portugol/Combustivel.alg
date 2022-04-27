@@ -17,8 +17,8 @@ inicio
 
 enquanto cod <> 4 faca
 
-    escreval("Informe um codigo (1.Álcool 2.Gasolina 3.Diesel 4.Fim).")
-    leia(cod)
+    escreva("Informe um codigo (1.Álcool 2.Gasolina 3.Diesel 4.Fim): ")
+   leia(cod)
     escolha cod
     
     caso 1
