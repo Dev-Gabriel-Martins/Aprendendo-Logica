@@ -8,7 +8,6 @@ public class negativos {
       
      int[] num = new int[quant];
      
-     int[] neg = new int[quant];
      
      for(int i=0;i < quant;i++){
      System.out.println("Digite um numero: ");
