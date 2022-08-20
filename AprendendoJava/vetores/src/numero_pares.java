@@ -14,27 +14,28 @@ public class numero_pares {
     int vetorPar[] = new int[n];
     int count =0;
     
-    for(int i=0;i<n;i++){
-        System.out.println("Digite um numero:");
+        for(int i=0;i<n;i++){
+        System.out.print("Digite um numero:");
         vetor[i] = sc.nextInt();
         }
     
-        System.out.println("NUMEROS PARES:");
+        System.out.println("NUMEROS PARES: ");
         
         for(int i=0;i<n;i++){
             
         if( (vetor[i]%2) == 0 ){
             
-            vetorPar[i] += vetor[i];
+            vetorPar[i] = vetor[i];
             count++;
         } 
         
         if (vetorPar[i] != 0){
-        System.out.println(vetorPar[i]);
+        System.out.print(" "+vetorPar[i]+ " ");
         }
         
         }
         
+        System.out.println();
         System.out.println("Quantidades de pares:"+count);
         
     sc.close();
