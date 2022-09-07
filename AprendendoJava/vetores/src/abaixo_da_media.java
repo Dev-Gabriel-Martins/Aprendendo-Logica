@@ -16,6 +16,7 @@ public class abaixo_da_media {
    
    System.out.println("Quantos elementos vai ter o vetor");
    int n = sc.nextInt();
+   
    double cont = 0;
    double media = 0;
    double[] ind = new double[n];
@@ -41,12 +42,7 @@ public class abaixo_da_media {
         System.out.println("Elementos abaixo da média: "+ abaixoMedia[i]);
 
         }
-
-    }
-   
-  
-   
-      
+    }      
   }
 }
   
