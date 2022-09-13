@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -35,10 +36,10 @@ public class comerciante {
         totalVenda += precoVenda[i];
         }
         
-        totalLucro = totalCompra - totalVenda;                
+        totalLucro = totalVenda - totalCompra;                
         
         for(int i=0; i< n;i++){
-        porcLucro[i] = (precoVenda[i] - precoCompra[i] / precoCompra[i])*100;
+        porcLucro[i] = (precoVenda[i] - precoCompra[i]) / precoCompra[i]*100.0;
         }
         
         for(int i=0; i < n; i++){
