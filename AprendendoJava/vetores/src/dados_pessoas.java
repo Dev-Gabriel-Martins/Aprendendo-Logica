@@ -20,11 +20,10 @@ public class dados_pessoas {
     double somaF =0;
     double mediaF =0;
     
-    
     for(int i =0;i < n; i++){
-        System.out.println("Altura da "+(i+1)+" pessoa");
+        System.out.printf("Altura da "+(i+1)+" pessoa: ");
         alt[i] = sc.nextDouble();
-        System.out.println("Digite o genero (m ou f) da "+(i+1)+" pessoa");
+        System.out.printf("Digite o genero (m ou f) da "+(i+1)+" pessoa: ");
         gen[i] = sc.next().charAt(0);
     }
     
@@ -42,15 +41,15 @@ public class dados_pessoas {
    for(int i = 0; i < n; i++){
          if(gen[i] == 'f'){         
             contF++;
-             somaF = somaF + gen[i];            
+             somaF = somaF + alt[i];            
          }else{           
              contM++;         
          }
    }            
-        mediaF = somaF / contF;
-    
-       System.out.println("Media das alturas das mulheres = "+ mediaF);
-       System.out.println("Numero de homens= "+ contM);
+       mediaF = somaF / contF;
+        
+       System.out.printf("Media das alturas das mulheres = %.2f\n",mediaF);
+       System.out.println("Numero de homens= "+ contM++);
        System.out.println("Menor altura= "+menorAlt);
        System.out.println("Maior altura= "+maiorAlt);    
     }
