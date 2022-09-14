@@ -35,9 +35,7 @@ public class diagonal_negativos {
                 }
             }
             
-        }
-        
-        
+        }                
         
         System.out.println("Diagonal Principal: ");
         for (int i = 0; i < m; i++) {
