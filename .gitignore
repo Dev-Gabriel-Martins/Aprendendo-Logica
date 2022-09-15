@@ -401,7 +401,7 @@ bin/
 
 *.exe
 *.o
-**/.vscode
+.vscode/
 
 
 
