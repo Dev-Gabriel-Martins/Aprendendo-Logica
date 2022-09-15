@@ -42,7 +42,8 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Tarefa gerada pelo Depurador."
+            "detail": "Tarefa gerada pelo Depurador." 
+            //comentario
         }
     ]
 }
