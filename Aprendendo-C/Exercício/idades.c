@@ -15,10 +15,10 @@ scanf("%i", &idade1);
 
 limpar_entrada();
 
-printf("Digite o nome da primeira pessoa: \n");
+printf("Digite o nome da segunda pessoa: \n");
 ler_texto(nome2, 30);
 
-printf("Digite a idade da primera pessoa: \n");
+printf("Digite a idade da segunda pessoa: \n");
 scanf("%i", &idade2);
 
 double media = (idade1 + idade2 )/2;
