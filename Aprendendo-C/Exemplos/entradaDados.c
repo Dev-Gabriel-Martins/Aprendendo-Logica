@@ -19,8 +19,6 @@ int main(){
     printf("Digite o valor da altura: ");
     scanf("%lf", &altura);
 
-
-    
     printf("NOME = %s\n", nome);
     printf("IDADE = %d\n", idade);
     printf("SALARIO = %.2lf\n", salario);
