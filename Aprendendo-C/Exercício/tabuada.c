@@ -7,10 +7,9 @@ int main(){
 	printf("Deseja a tabuada para qual valor: ");
 	scanf("%i", &n);
 	
-	for(int i = 1; i < 11; i++){
+	for(int i = 1; i <= 10; i++){
 	
-	printf("%i X %i = %i ", n, i, n*i);
-	printf("\n");
+	printf("%i X %i = %i \n", n, i, n*i);	
 	
 	}
 
