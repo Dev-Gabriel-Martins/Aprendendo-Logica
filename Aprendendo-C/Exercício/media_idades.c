@@ -21,9 +21,8 @@ int main(){
         }
 
         double media = soma / count;
-
+	
 		printf("MEDIA = %.2lf\n", media);
-
     }
 
     return 0;
