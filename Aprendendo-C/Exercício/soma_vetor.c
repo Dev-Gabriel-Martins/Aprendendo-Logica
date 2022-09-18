@@ -16,7 +16,7 @@ int main(){
 
     soma =0;
 
-    printf("Valores:");
+    printf("Valores: ");
     for(int i = 0;i < n; i++){    
     soma += vet[i];
     cont++;
