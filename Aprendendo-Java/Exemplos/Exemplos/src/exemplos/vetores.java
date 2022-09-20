@@ -21,7 +21,7 @@ public class vetores {
             vet[i] = sc.nextDouble();
         }
         
-        System.out.println("\n numeros digitados:");
+        System.out.println("\n Numeros digitados:");
         for (int i = 0; i < n; i++) {
             System.out.println(String.format("%.1f", vet[i]));
         }
