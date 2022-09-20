@@ -23,7 +23,7 @@ public class Tipo {
      System.out.println("Salario ="+String.format("%.2f", salario));
      System.out.println("Altura ="+String.format("%.2f",altura));
      System.out.println("Genero ="+genero);
-     
+        
     }
     
 }
