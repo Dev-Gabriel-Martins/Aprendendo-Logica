@@ -1,5 +1,5 @@
 
-package retangulo;
+package exercícios;
 import java.util.Scanner;
 import java.util.Locale;
 
