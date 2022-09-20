@@ -6,10 +6,10 @@ int main(){
 
     double base, altura, area, perimetro, diagonal;
 
-    cout << "Digite a base do triangulo: " << endl;
+    cout << "Digite a base do retangulo: " << endl;
     cin >> base;
 
-    cout << "altura do triandogulo" << endl;
+    cout << "altura do retangulo" << endl;
     cin >> altura;
 
     area = base * altura;
