@@ -442,3 +442,6 @@ Aprendendo-C++/Exercícios/diagonal_negativos
 /Aprendendo-Java/Exercícios/E/nbproject/private/
 /Aprendendo-Java/Exercícios/Exercício_estruturas/build/
 /Aprendendo-Java/Exercícios/Exercício_estruturas/nbproject/private/
+
+*.sln
+*.csproj
