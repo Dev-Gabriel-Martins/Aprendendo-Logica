@@ -445,3 +445,5 @@ Aprendendo-C++/Exercícios/diagonal_negativos
 
 *.sln
 *.csproj
+*.xml
+*.iml
